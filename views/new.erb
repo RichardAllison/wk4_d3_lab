@@ -1,36 +1,46 @@
-  <form action="/pizzas" method="POST">
+<form class="" action="/pizzas" method="POST">
 
-    <label for="first-name-input">First Name</label>
-    <input
-    id="first-name-input"
-    type="text"
-    name="first_name"
-    value="">
+  <label for="first-name-input" >First name:</label>
+  <input
+  id="first-name-input"
+  type="text"
+  name="first_name"
+  value=""
+  placeholder="Enter your first name">
 
-    <label for="last-name-input">Last Name</label>
-    <input
-    id="last-name-input"
-    type="text"
-    name="last_name"
-    value="">
+  <br>
 
-    <label for="quantity-input">Quantity</label>
-    <input
-    id="quantity-input"
-    type="number"
-    min="1"
-    name="quantity"
-    value="">
+  <label for="last-name-input">Last name:</label>
+  <input
+  id="last-name-input"
+  type="text"
+  name="last_name"
+  value=""
+  placeholder="Enter your last name">
 
-    <label for="topping-select">Topping</label>
-    <select class="" name="topping">
-      <option value="Pepperoni">Pepperoni</option>
-      <option value="Italian Sausage">Italian Sausage</option>
-      <option value="Crystal Meth">Crystal Meth</option>
-    </select>
+  <br>
 
-    <input type="submit" name="" value="Order Pizza">
+  <label for="topping-select">Topping:</label>
+  <select id="topping-select" class="" name="topping">
+    <option value="Pepperoni">Pepperoni</option>
+    <option value="Italian Sausage">Italian Sausage</option>
+    <option value="Margherita">Margherita</option>
+    <option value="Mushroom">Mushroom</option>
+  </select>
 
+  <br>
 
+  <label for="quantity-input">Quantity:</label>
+  <input
+  id="quantity-input"
+  type="number"
+  min="1"
+  name="quantity"
+  value=""
+  placeholder="Enter a quantity">
 
-  </form>
+  <br>
+
+  <input type="submit" name="" value="Order Pizza">
+
+</form>
